@@ -11,9 +11,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-emerald-800 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">F</span>
+                <span className="text-white font-bold text-lg">KIS</span>
               </div>
-              <span className="font-serif text-xl font-semibold">Furnish</span>
+              <span className="font-serif text-xl font-semibold">Kashtbhanjan Interal Studio</span>
             </div>
             <p className="text-gray-400 mb-4 text-sm leading-relaxed">
               Transform your home with timeless furniture that combines comfort, style, and quality craftsmanship.
