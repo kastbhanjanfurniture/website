@@ -55,9 +55,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                   <p className="text-gray-600">
-                    123 Furniture Street<br />
-                    Design City, DC 12345<br />
-                    United States
+                    Shed No 3, Jaldhara Residency,<br />Opp.Riyasat Party Plot, S.P Ring Road,<br /> Nikol, Ahmedabad.
                   </p>
                 </div>
               </div>
@@ -68,8 +66,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
-                  <p className="text-gray-600">+1 (555) 987-6543</p>
+                  <p className="text-gray-600">+91-76238 26026</p>
+                  {/* <p className="text-gray-600">+1 (555) 987-6543</p> */}
                 </div>
               </div>
 
@@ -79,8 +77,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                  <p className="text-gray-600">hello@furnish.com</p>
-                  <p className="text-gray-600">support@furnish.com</p>
+                  <p className="text-gray-600">Kastbhanjanmarketing@gmail.com</p>
+                  {/* <p className="text-gray-600">support@furnish.com</p> */}
                 </div>
               </div>
 
@@ -91,8 +89,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Business Hours</h3>
                   <div className="text-gray-600 space-y-1">
-                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                    <p>Saturday: 10:00 AM - 5:00 PM</p>
+                    <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
                     <p>Sunday: 12:00 PM - 4:00 PM</p>
                   </div>
                 </div>

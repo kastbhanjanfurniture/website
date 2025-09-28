@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const isActive = (path: string) => location.pathname === path;
 
-  const whatsappNumber = "919876543210"; // Replace with your number
+  const whatsappNumber = "917623826026"; // Replace with your number
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (
@@ -67,7 +67,7 @@ const Navbar = () => {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link
+            {/* <Link
               to="/cart"
               className="p-2 text-gray-600 hover:text-emerald-800 transition-colors relative"
             >
@@ -77,7 +77,7 @@ const Navbar = () => {
                   {cartCount}
                 </span>
               )}
-            </Link>
+            </Link> */}
 
             <a
               href={whatsappLink}
@@ -109,7 +109,7 @@ const Navbar = () => {
             ))}
 
             <div className="flex items-center justify-center space-x-4 pt-4">
-              <Link
+              {/* <Link
                 to="/cart"
                 className="p-2 text-gray-600 relative"
                 onClick={() => setIsMenuOpen(false)}
@@ -120,7 +120,7 @@ const Navbar = () => {
                     {cartCount}
                   </span>
                 )}
-              </Link>
+              </Link> */}
 
               <a
                 href={whatsappLink}
