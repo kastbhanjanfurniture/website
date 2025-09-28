@@ -48,10 +48,10 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link 
-                to="/shop"
+                to="/gallery"
                 className="bg-emerald-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-emerald-700 transition-colors flex items-center justify-center group"
               >
-                Shop Now
+                Gallery
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-emerald-800 transition-colors">
