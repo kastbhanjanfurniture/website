@@ -107,9 +107,9 @@ const ProductDetail = () => {
             </div>
 
             {/* Price */}
-            <div className="text-3xl font-bold text-emerald-800">
+            {/* <div className="text-3xl font-bold text-emerald-800">
               ${product.price}
-            </div>
+            </div> */}
 
             {/* Description */}
             <p className="text-gray-700 leading-relaxed">
@@ -126,16 +126,16 @@ const ProductDetail = () => {
                 <span className="font-medium text-gray-900 w-24">Dimensions:</span>
                 <span className="text-gray-600">{product.dimensions}</span>
               </div>
-              <div className="flex">
+              {/* <div className="flex">
                 <span className="font-medium text-gray-900 w-24">Stock:</span>
                 <span className={`font-medium ${product.inStock ? 'text-green-600' : 'text-red-600'}`}>
                   {product.inStock ? 'In Stock' : 'Out of Stock'}
                 </span>
-              </div>
+              </div> */}
             </div>
 
             {/* Quantity Selector */}
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <span className="font-medium text-gray-900">Quantity:</span>
               <div className="flex items-center border border-gray-300 rounded-lg">
                 <button
@@ -152,10 +152,10 @@ const ProductDetail = () => {
                   <Plus className="w-4 h-4" />
                 </button>
               </div>
-            </div>
+            </div> */}
 
             {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={handleAddToCart}
                 disabled={!product.inStock}
@@ -168,7 +168,7 @@ const ProductDetail = () => {
                 <Heart className="w-5 h-5 mr-2" />
                 Wishlist
               </button>
-            </div>
+            </div> */}
 
             {/* Features */}
             <div className="border-t pt-6 space-y-4">

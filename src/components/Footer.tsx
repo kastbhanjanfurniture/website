@@ -22,7 +22,7 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="kastbhanjan_interior_studio" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -62,15 +62,16 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-emerald-600" />
-                <span className="text-gray-400">123 Furniture St, Design City, DC 12345</span>
+                <span className="text-gray-400">Shed No 3, Jaldhara Residency,<br />Opp.Riyasat Party Plot, S.P Ring Road,<br /> Nikol, Ahmedabad.
+</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-emerald-600" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91-76238 26026</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-emerald-600" />
-                <span className="text-gray-400">hello@furnish.com</span>
+                <span className="text-gray-400">Kastbhanjanmarketing@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -79,7 +80,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Furnish. All rights reserved.
+              © 2025 Kashtbhanjan Interal Studio All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>

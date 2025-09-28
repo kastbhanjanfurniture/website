@@ -5,26 +5,57 @@ import { products } from '../data/products';
 
 const Home = () => {
   const featuredProducts = products.slice(0, 4);
-  const testimonials = [
-    {
-      name: 'Sarah Johnson',
-      rating: 5,
-      comment: 'Amazing quality and fast delivery! The sectional sofa exceeded my expectations.',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
-    },
-    {
-      name: 'Michael Chen',
-      rating: 5,
-      comment: 'Professional service and beautiful furniture. Highly recommend Furnish!',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
-    },
-    {
-      name: 'Emily Davis',
-      rating: 5,
-      comment: 'Love my new dining set! Perfect quality and excellent customer service.',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
-    }
-  ];
+ const testimonials = [
+  {
+    name: 'Kinjal Patel',
+    rating: 5,
+    comment: 'The sofa quality is excellent. It gives a royal feel to my living room!',
+    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    name: 'Harshad Mehta',
+    rating: 5,
+    comment: 'The dining table is stylish and sturdy. Perfect for family dinners together.',
+    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    name: 'Rina Joshi',
+    rating: 5,
+    comment: 'The bed design is very comfortable. I sleep better and it enhances my room’s look.',
+    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    name: 'Vishal Parmar',
+    rating: 5,
+    comment: 'Loved the wardrobe! It’s spacious, elegant, and fits perfectly in my bedroom.',
+    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    name: 'Pooja Shah',
+    rating: 5,
+    comment: 'Amazing center table! The finishing is premium and delivery was quick.',
+    image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    name: 'Manoj Desai',
+    rating: 4,
+    comment: 'Good quality recliner, very comfortable. Delivery took a bit longer than expected.',
+    image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    name: 'Bhavna Trivedi',
+    rating: 5,
+    comment: 'I bought a study table for my son. Strong build and modern design, totally worth it!',
+    image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    name: 'Nirav Shah',
+    rating: 4,
+    comment: 'The TV unit looks very premium. Assembly was a little tricky but the finish is perfect.',
+    image: 'https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=400'
+  }
+];
+
 
   return (
     <div className="min-h-screen">
@@ -54,9 +85,9 @@ const Home = () => {
                 Gallery
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-emerald-800 transition-colors">
+              <Link to="/shop" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-emerald-800 transition-colors">
                 Explore Collection
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -142,7 +173,7 @@ const Home = () => {
                     </div>
                     <span className="text-sm text-gray-500 ml-2">({product.reviews})</span>
                   </div>
-                  <p className="text-xl font-bold text-emerald-800">${product.price}</p>
+                  {/* <p className="text-xl font-bold text-emerald-800">${product.price}</p> */}
                 </div>
               </Link>
             ))}

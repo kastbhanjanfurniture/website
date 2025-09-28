@@ -174,13 +174,13 @@ const Blog = () => {
                     <User className="w-4 h-4 text-gray-400 mr-2" />
                     <span className="text-sm text-gray-600">{featuredPost.author}</span>
                   </div>
-                  <Link
+                  {/* <Link
                     to={`/blog/${featuredPost.id}`}
                     className="bg-emerald-800 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors inline-flex items-center"
                   >
                     Read More
                     <ArrowRight className="ml-2 w-4 h-4" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -252,7 +252,7 @@ const Blog = () => {
                 </div>
                 
                 <h3 className="font-serif text-xl font-bold text-gray-900 mb-3 group-hover:text-emerald-800 transition-colors">
-                  <Link to={`/blog/${post.id}`}>
+                  <Link to={`/blog`}>
                     {post.title}
                   </Link>
                 </h3>
@@ -274,13 +274,13 @@ const Blog = () => {
                     <User className="w-4 h-4 text-gray-400 mr-2" />
                     <span className="text-sm text-gray-600">{post.author}</span>
                   </div>
-                  <Link
+                  {/* <Link
                     to={`/blog/${post.id}`}
                     className="text-emerald-800 hover:text-emerald-600 font-medium text-sm inline-flex items-center"
                   >
                     Read More
                     <ArrowRight className="ml-1 w-4 h-4" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </article>

@@ -79,7 +79,7 @@ const Shop = () => {
               </div>
 
               {/* Price Range */}
-              <div className="mb-6">
+              {/* <div className="mb-6">
                 <h4 className="font-medium mb-3">Price Range</h4>
                 <div className="space-y-2">
                   <input
@@ -95,7 +95,7 @@ const Shop = () => {
                     <span>${priceRange[1]}</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -191,7 +191,7 @@ const Shop = () => {
                       )}
                     </div>
                     
-                    <div className={`flex ${viewMode === 'list' ? 'justify-between' : 'flex-col'} items-${viewMode === 'list' ? 'center' : 'start'} gap-2`}>
+                    {/* <div className={`flex ${viewMode === 'list' ? 'justify-between' : 'flex-col'} items-${viewMode === 'list' ? 'center' : 'start'} gap-2`}>
                       <p className="text-xl font-bold text-emerald-800">${product.price}</p>
                       <button
                         onClick={() => addToCart(product)}
@@ -200,7 +200,7 @@ const Shop = () => {
                         <ShoppingBag className="w-4 h-4" />
                         Add to Cart
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}
