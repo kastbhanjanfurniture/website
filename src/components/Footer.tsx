@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-emerald-800 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">KIS</span>
               </div>
-              <span className="font-serif text-xl font-semibold">Kashtbhanjan Interal Studio</span>
+              <span className="font-serif text-xl font-semibold">Kashtbhanjan Interior Studio</span>
             </div>
             <p className="text-gray-400 mb-4 text-sm leading-relaxed">
               Transform your home with timeless furniture that combines comfort, style, and quality craftsmanship.
@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Kashtbhanjan Interal Studio All rights reserved.
+              © 2025 Kashtbhanjan Interior Studio All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
